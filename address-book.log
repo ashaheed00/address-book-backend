@@ -452,3 +452,133 @@ org.hibernate.InstantiationException: No default constructor for entity:  : com.
 				HikariPool-3 - Shutdown initiated...
 [2020-12-15T08:47:49.049Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(52)-127.0.0.1] [352] [INFO ]
 				HikariPool-3 - Shutdown completed.
+[2020-12-15T08:53:45.045Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ]
+				HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-15T08:53:45.045Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting AddressBookBackendApplication using Java 15 on DESKTOP-FR81GBB with PID 6244 (C:\Users\user\workspace-sts\AddressBookBackend\target\classes started by user in C:\Users\user\workspace-sts\AddressBookBackend)
+[2020-12-15T08:53:45.045Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-15T08:53:45.045Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-15T08:53:45.045Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-15T08:53:47.047Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2020-12-15T08:53:47.047Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+[2020-12-15T08:53:48.048Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-15T08:53:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-15T08:53:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-15T08:53:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2020-12-15T08:53:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-15T08:53:48.048Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 3573 ms
+[2020-12-15T08:53:49.049Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-15T08:53:49.049Z] [org.hibernate.Version] [restartedMain] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.25.Final
+[2020-12-15T08:53:50.050Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-15T08:53:50.050Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-12-15T08:53:51.051Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-12-15T08:53:51.051Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-15T08:53:53.053Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-15T08:53:53.053Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-15T08:53:53.053Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-15T08:53:54.054Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-15T08:53:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-15T08:53:54.054Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-15T08:53:54.054Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-15T08:53:54.054Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started AddressBookBackendApplication in 10.553 seconds (JVM running for 14.161)
+[2020-12-15T08:55:58.058Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-4] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-15T08:55:58.058Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-4] [651] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-15T08:55:58.058Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-12-15T08:55:58.058Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-12-15T08:55:58.058Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting AddressBookBackendApplication using Java 15 on DESKTOP-FR81GBB with PID 6244 (C:\Users\user\workspace-sts\AddressBookBackend\target\classes started by user in C:\Users\user\workspace-sts\AddressBookBackend)
+[2020-12-15T08:55:58.058Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-15T08:55:58.058Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2020-12-15T08:55:58.058Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+[2020-12-15T08:55:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-15T08:55:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-15T08:55:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-15T08:55:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2020-12-15T08:55:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-15T08:55:59.059Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 886 ms
+[2020-12-15T08:55:59.059Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-15T08:55:59.059Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-2 - Starting...
+[2020-12-15T08:55:59.059Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-2 - Start completed.
+[2020-12-15T08:55:59.059Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-15T08:55:59.059Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-15T08:55:59.059Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-15T08:55:59.059Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-15T08:55:59.059Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-15T08:55:59.059Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-15T08:55:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-15T08:55:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-15T08:56:00.000Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started AddressBookBackendApplication in 1.842 seconds (JVM running for 139.227)
+[2020-12-15T08:56:00.000Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-15T08:56:16.016Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-15T08:56:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-15T08:56:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ]
+				Completed initialization in 2 ms
+[2020-12-15T08:56:17.017Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.adbk.dto.ResponseDTO> com.adbk.controller.ContactDataController.addNewContact(com.adbk.dto.ContactDTO): [Field error in object 'contactDTO' on field 'name': rejected value [Ro]; codes [Pattern.contactDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@70100703,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter correct name in correct format. Eg. John Smith]] ]
+[2020-12-15T08:56:28.028Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.adbk.dto.ResponseDTO> com.adbk.controller.ContactDataController.addNewContact(com.adbk.dto.ContactDTO) with 2 errors: [Field error in object 'contactDTO' on field 'zip': rejected value [5812]; codes [Pattern.contactDTO.zip,Pattern.zip,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.zip,zip]; arguments []; default message [zip],[Ljavax.validation.constraints.Pattern$Flag;@70100703,^[1-9][0-9]{5}$]; default message [Wrong Zip Code format. Eg. 654321]] [Field error in object 'contactDTO' on field 'name': rejected value [Ro]; codes [Pattern.contactDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@70100703,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter correct name in correct format. Eg. John Smith]] ]
+[2020-12-15T08:56:42.042Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-5] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.adbk.dto.ResponseDTO> com.adbk.controller.ContactDataController.addNewContact(com.adbk.dto.ContactDTO) with 2 errors: [Field error in object 'contactDTO' on field 'address': rejected value []; codes [NotBlank.contactDTO.address,NotBlank.address,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.address,address]; arguments []; default message [address]]; default message [Please enter address]] [Field error in object 'contactDTO' on field 'name': rejected value [Ro]; codes [Pattern.contactDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@70100703,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter correct name in correct format. Eg. John Smith]] ]
+[2020-12-15T08:57:16.016Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(12)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-12-15T08:57:16.016Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(12)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-15T08:57:16.016Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(12)-127.0.0.1] [651] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-15T08:57:16.016Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(12)-127.0.0.1] [350] [INFO ]
+				HikariPool-2 - Shutdown initiated...
+[2020-12-15T08:57:16.016Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(12)-127.0.0.1] [352] [INFO ]
+				HikariPool-2 - Shutdown completed.

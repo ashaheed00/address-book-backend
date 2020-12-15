@@ -57,7 +57,7 @@ public class ContactDataController {
 	}
 
 	@PutMapping("/contact/update/{contactId}")
-	public ResponseEntity<ResponseDTO> updateContactById(@PathVariable("contactId") Long contactId,
+	public ResponseEntity<ResponseDTO> updateContactById(@Valid @PathVariable("contactId") Long contactId,
 			@Valid @RequestBody ContactDTO contactDTO) {
 		log.info("PUT call to update contact with id: " + contactId);
 		Contact contact = contactDataService.updateContactById(contactId, contactDTO);
