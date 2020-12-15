@@ -28,6 +28,8 @@ public class ContactDataService implements IContactDataService {
 	@Override
 	public Contact getContactById(Long contactId) {
 		log.info("Fetching Contact data for id: " + contactId);
+		if (!contactDataRepository.existsById(contactId))
+			throw new AddressBookException("No Contact found with id: " + contactId);
 		return contactDataRepository.findById(contactId)
 				.orElseThrow(() -> new AddressBookException("No Contact found with id: " + contactId));
 	}

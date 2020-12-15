@@ -26,7 +26,7 @@ public class AddressBookExceptionHandler {
 	}
 
 	@ExceptionHandler(AddressBookException.class)
-	public ResponseEntity<ResponseDTO> handlEmployeePayrollException(AddressBookException exception) {
+	public ResponseEntity<ResponseDTO> handlAddressBookException(AddressBookException exception) {
 		ResponseDTO responseDTO = new ResponseDTO("REST call exceptions", exception.getMessage());
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
 	}

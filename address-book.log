@@ -582,3 +582,129 @@ org.hibernate.InstantiationException: No default constructor for entity:  : com.
 				HikariPool-2 - Shutdown initiated...
 [2020-12-15T08:57:16.016Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(12)-127.0.0.1] [352] [INFO ]
 				HikariPool-2 - Shutdown completed.
+[2020-12-15T09:27:07.007Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting AddressBookBackendApplication using Java 15 on DESKTOP-FR81GBB with PID 12180 (C:\Users\user\workspace-sts\AddressBookBackend\target\classes started by user in C:\Users\user\workspace-sts\AddressBookBackend)
+[2020-12-15T09:27:07.007Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ]
+				HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-15T09:27:07.007Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-15T09:27:07.007Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-15T09:27:07.007Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-15T09:27:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2020-12-15T09:27:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+[2020-12-15T09:27:10.010Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-15T09:27:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-15T09:27:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-15T09:27:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2020-12-15T09:27:11.011Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-15T09:27:11.011Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 3713 ms
+[2020-12-15T09:27:11.011Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-15T09:27:11.011Z] [org.hibernate.Version] [restartedMain] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.25.Final
+[2020-12-15T09:27:11.011Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-15T09:27:12.012Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-12-15T09:27:12.012Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-12-15T09:27:12.012Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-15T09:27:15.015Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-15T09:27:15.015Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-15T09:27:15.015Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-15T09:27:15.015Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-15T09:27:16.016Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-15T09:27:16.016Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-15T09:27:16.016Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-15T09:27:16.016Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started AddressBookBackendApplication in 10.617 seconds (JVM running for 12.85)
+[2020-12-15T09:27:20.020Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-15T09:27:20.020Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-15T09:27:20.020Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ]
+				Completed initialization in 3 ms
+[2020-12-15T09:27:20.020Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-1] [45] [INFO ]
+				GET call to fetch contact with id: 2
+[2020-12-15T09:27:20.020Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-1] [30] [INFO ]
+				Fetching Contact data for id: 2
+[2020-12-15T09:27:21.021Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ]
+				Resolved [com.adbk.exception.AddressBookException: No Contact found with id: 2]
+[2020-12-15T09:27:39.039Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-3] [37] [INFO ]
+				GET call to fetch all contacts
+[2020-12-15T09:27:39.039Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-3] [24] [INFO ]
+				Fetching all Contacts data
+[2020-12-15T09:27:51.051Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-5] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.adbk.dto.ResponseDTO> com.adbk.controller.ContactDataController.addNewContact(com.adbk.dto.ContactDTO) with 2 errors: [Field error in object 'contactDTO' on field 'address': rejected value []; codes [Pattern.contactDTO.address,Pattern.address,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.address,address]; arguments []; default message [address],[Ljavax.validation.constraints.Pattern$Flag;@4d9dd1ea,^\w[\w\s/,-]{3,}$]; default message [Please enter address properly]] [Field error in object 'contactDTO' on field 'name': rejected value [Ro]; codes [Pattern.contactDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@4d9dd1ea,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter name in correct format. Eg. John Smith]] ]
+[2020-12-15T09:28:17.017Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-6] [53] [INFO ]
+				POST call to add new contact
+[2020-12-15T09:28:17.017Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-6] [39] [INFO ]
+				New Contact is being added
+[2020-12-15T09:28:28.028Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-8] [62] [INFO ]
+				PUT call to update contact with id: 13
+[2020-12-15T09:28:28.028Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-8] [47] [INFO ]
+				Updating Contact with id: 13
+[2020-12-15T09:28:28.028Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-8] [207] [WARN ]
+				Resolved [com.adbk.exception.AddressBookException: No Contact found with id: 13]
+[2020-12-15T09:29:25.025Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-10] [62] [INFO ]
+				PUT call to update contact with id: 138
+[2020-12-15T09:29:25.025Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-10] [47] [INFO ]
+				Updating Contact with id: 138
+[2020-12-15T09:29:30.030Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.adbk.dto.ResponseDTO> com.adbk.controller.ContactDataController.updateContactById(java.lang.Long,com.adbk.dto.ContactDTO): [Field error in object 'contactDTO' on field 'phoneNo': rejected value [85200258]; codes [Pattern.contactDTO.phoneNo,Pattern.phoneNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.phoneNo,phoneNo]; arguments []; default message [phoneNo],[Ljavax.validation.constraints.Pattern$Flag;@4d9dd1ea,^(\+?91)?\s?[0-9]{5}\s?[0-9]{5}$]; default message [Wrong Phone Number Format. Eg. 9009009001, 919009009001, +919009009001, +91 9009009001]] ]
+[2020-12-15T09:29:45.045Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-4] [37] [INFO ]
+				GET call to fetch all contacts
+[2020-12-15T09:29:45.045Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-4] [24] [INFO ]
+				Fetching all Contacts data
+[2020-12-15T09:29:58.058Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-3] [71] [INFO ]
+				DELETE call to update contact with id: 13
+[2020-12-15T09:29:58.058Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-3] [56] [INFO ]
+				Deleting Contact with id: 13
+[2020-12-15T09:29:58.058Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3] [207] [WARN ]
+				Resolved [com.adbk.exception.AddressBookException: No Contact found with id: 13]
+[2020-12-15T09:30:05.005Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-5] [71] [INFO ]
+				DELETE call to update contact with id: 138
+[2020-12-15T09:30:05.005Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-5] [56] [INFO ]
+				Deleting Contact with id: 138
+[2020-12-15T09:30:19.019Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-6] [53] [INFO ]
+				POST call to add new contact
+[2020-12-15T09:30:19.019Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-6] [39] [INFO ]
+				New Contact is being added
+[2020-12-15T09:30:27.027Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-8] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.adbk.dto.ResponseDTO> com.adbk.controller.ContactDataController.updateContactById(java.lang.Long,com.adbk.dto.ContactDTO): [Field error in object 'contactDTO' on field 'phoneNo': rejected value [85200258]; codes [Pattern.contactDTO.phoneNo,Pattern.phoneNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.phoneNo,phoneNo]; arguments []; default message [phoneNo],[Ljavax.validation.constraints.Pattern$Flag;@4d9dd1ea,^(\+?91)?\s?[0-9]{5}\s?[0-9]{5}$]; default message [Wrong Phone Number Format. Eg. 9009009001, 919009009001, +919009009001, +91 9009009001]] ]
+[2020-12-15T09:30:34.034Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-9] [62] [INFO ]
+				PUT call to update contact with id: 139
+[2020-12-15T09:30:34.034Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-9] [47] [INFO ]
+				Updating Contact with id: 139
+[2020-12-15T09:30:40.040Z] [com.adbk.controller.ContactDataController] [http-nio-8080-exec-2] [37] [INFO ]
+				GET call to fetch all contacts
+[2020-12-15T09:30:40.040Z] [com.adbk.service.ContactDataService] [http-nio-8080-exec-2] [24] [INFO ]
+				Fetching all Contacts data
+[2020-12-15T09:30:48.048Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(11)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-12-15T09:30:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(11)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-15T09:30:48.048Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(11)-127.0.0.1] [651] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-15T09:30:48.048Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(11)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-12-15T09:30:48.048Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(11)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
